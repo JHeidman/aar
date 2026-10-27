@@ -1,9 +1,16 @@
 # Rules
 
-Put the Red Strike rulebook, playbook (scenarios) and player aid PDFs here, e.g.:
+The official files (VUCA Simulations, living rules June 2024):
 
-- `red-strike-rules.pdf`
-- `red-strike-playbook.pdf`
-- `vassal-module-help.pdf` (from the module's Help menu)
+| File | Pages | What's in it |
+|---|---|---|
+| `13_RS_Rules_24_JUN_Living_Rules.pdf` | 60 | Rulebook |
+| `14_RS_Scenario_Book_24_JUNE_ERRATA.pdf` | 48 | 20 scenarios, worked examples, playthroughs |
+| `08_RS_Player_Aid_Charts_21_JUN_LIVING.pdf` | 12 | Charts, tables, Action Stage Summary |
 
-Claude reads these to answer rules questions with exact rule numbers. Keep the repo **private** if you add them, since they're the publisher's copyrighted material.
+**These PDFs are not committed**, because this repo is public and they're VUCA's copyrighted material (`.gitignore` blocks them). Claude's sessions start from a fresh copy of the repo, so **upload the PDFs again at the start of any session where you want exact rule lookups.** If you make the repo private, they can be committed instead.
+
+What *is* committed is our own material:
+
+- `quick-reference.md` — our summary of the core rules, with rule numbers.
+- `rulings.md` — questions that came up and the answers.

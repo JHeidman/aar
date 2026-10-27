@@ -1,0 +1,4 @@
+# Rulebook PDFs are VUCA's copyrighted material and this repo is public.
+# Keep them local (or make the repo private and remove these lines).
+rules/*.pdf
+rules/*.txt
