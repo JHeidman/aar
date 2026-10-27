@@ -1,6 +1,6 @@
 # Session N — <Scenario> — YYYY-MM-DD
 
-- **Players:** <name> (NATO / WP) vs. Eero (NATO / WP)
+- **Players:** Jeff (NATO / WP) vs. Eero (NATO / WP)
 - **Scenario:** 
 - **Turns played:** 
 - **Vassal save:** `saves/...`

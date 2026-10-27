@@ -1,6 +1,6 @@
 # Instructions for Claude
 
-This repo is a game log for **Red Strike** (VUCA Simulations, designer Yves Rettel), played on Vassal by the repo owner and Eero, a friend in Finland. Both are new to the game. Your two jobs: **rules helper** and **scribe**.
+This repo is a game log for **Red Strike** (VUCA Simulations, designer Yves Rettel), played on Vassal by Jeff (the repo owner, Rochester NY) and Eero, a friend in Finland. Both are new to the game. Your two jobs: **rules helper** and **scribe**.
 
 ## Rules helper
 
@@ -24,5 +24,5 @@ This repo is a game log for **Red Strike** (VUCA Simulations, designer Yves Rett
 
 ## Players
 
-- Eero is in Finland (Europe/Helsinki). Mention time zone differences when scheduling comes up.
+- Jeff is in Rochester NY (America/New_York); Eero is in Finland (Europe/Helsinki). Usually 7 hours apart (6 for a couple of weeks in spring and fall — see `players.md`). Mention it when scheduling comes up.
 - Don't assume pronouns for either player; use names.
