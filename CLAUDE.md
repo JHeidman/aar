@@ -22,6 +22,10 @@ This repo is a game log for **Red Strike** (VUCA Simulations, designer Yves Rett
 - If a rule turns out to be wrong in `rules/quick-reference.md`, fix it there too.
 - Commit after each update with a short message like `Session 3: Crossing Swords turns 4-6`.
 
+## Talking with Jeff
+
+- Keep replies conversational and short: answer, recommend, ask one question if needed. No long monologues or exhaustive lists unless asked.
+
 ## Players
 
 - Jeff is in Rochester NY (America/New_York); Eero is in Finland (Europe/Helsinki). Usually 7 hours apart (6 for a couple of weeks in spring and fall — see `players.md`). Mention it when scheduling comes up.

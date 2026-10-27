@@ -65,3 +65,15 @@ The scenario book has **20 scenarios**. Before any scenario, agree on standard v
 - **Tactical Withdrawal** lets NATO trade ground for time instead of taking hits.
 
 **Variant (later):** woodland map E2, **NATO** has the initiative and must capture 0410 / hold 0401, WP gets 2 RE of combat transport, and initiative is re-checked each turn with Battles Won.
+
+---
+
+## Reforger primer
+
+**Map:** Exercise map E10 · **Length:** 4 GTs · **Initiative:** Force Gold (WP markers) at start, then Battles Won decides each turn.
+
+**Forces:** Force Green (NATO markers): 11 ground units, 2 helicopters, **30 SP**. Force Gold (WP markers): 10 ground units, 6 helicopters, **40 SP**, plus 4 more units arriving on GT 2 at hex 0523. Both sides use US counters. Each side gets 2 air recon missions per GT.
+
+**Victory:** Force Gold must get at least **3 REs** of combat units across the **Main River**. Otherwise Green wins.
+
+**New compared with Crossing Swords:** helicopters flying close air support (rule 16.4.3.12, plus the CAS step in 15.5.2.3), air reconnaissance (16.4.3.16), reinforcements, and initiative changing hands based on battles won (6.2, 15.5.6).
