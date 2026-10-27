@@ -2,7 +2,7 @@
 
 - **Players:** Jeff (NATO / WP) vs. Eero (NATO / WP)
 - **Scenario:** 1. Crossing Swords (exercise map E1, 5 GTs)
-- **Time:** 12:00 Rochester / 19:00 Finland
+- **Time:** 11:00 EST Rochester / 18:00 EET Finland
 - **Vassal save:** `saves/...`
 
 ## Plan

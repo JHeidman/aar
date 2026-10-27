@@ -27,4 +27,4 @@ It's **6 hours** for a couple of weeks each spring and fall, when the US and EU 
 
 | Date | Time (Rochester / Finland) | Plan |
 |---|---|---|
-| Sun 2026-11-01 | 12:00 / 19:00 *(US clocks change that morning — 7 h apart)* | First session: Vassal walkthrough with Crossing Swords, then Reforger if time allows |
+| Sun 2026-11-01 | 11:00 EST / 18:00 EET *(US clocks change that morning — 7 h apart)* | First session: Vassal walkthrough with Crossing Swords, then Reforger if time allows |
