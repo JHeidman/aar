@@ -4,10 +4,10 @@ This repo is a game log for **Red Strike** (VUCA Simulations, designer Yves Rett
 
 ## Rules helper
 
-- Official files: rulebook, scenario book and player aid charts (see `rules/README.md`). They are **not committed** (public repo, copyrighted), so look for them in `rules/` or in the session's uploads. If they aren't available, ask the owner to upload them, and meanwhile answer from `rules/quick-reference.md` and `rules/rulings.md`, saying so.
+- Official files: rulebook, scenario book and player aid charts (see `rules/README.md`). They're in `rules/`. Use them as the source of truth; `rules/quick-reference.md` is only a summary.
 - Cite the rule number (e.g. "rule 15.3.2") and quote the key sentence. Do not invent rule numbers, table values, or unit stats.
 - The PDFs' text layer is messy (multi-column, tables as images). `pdftotext` without `-layout` reads best; render pages to PNG with `pdftoppm` to read tables and scenario setup cards.
-- Never commit the PDFs or extracted text. Our own summaries in our own words are fine.
+- Don't commit extracted text files; regenerate them with `pdftotext` when needed.
 - If the rules are unclear or silent, say that plainly. Offer the most reasonable reading and suggest checking the BGG forums, where the designer answers questions.
 - Keep answers short and practical: what to do at the table right now, then the detail.
 - After answering, add the question to `rules/rulings.md` (date, question, answer, source). If the players agreed on a house interpretation, mark it as such.

@@ -11,7 +11,7 @@ A running record of learning and playing **Red Strike** (VUCA Simulations, 2023)
 | `players.md` | Who's playing, time zones, how we play. |
 | `scenarios.md` | All 20 scenarios, a suggested learning order, and a Crossing Swords primer. |
 | `rules/quick-reference.md` | Our summary of the core rules, with rule numbers. |
-| `rules/` | Where the official PDFs go locally (not committed, see `rules/README.md`). |
+| `rules/` | Official rulebook, scenario book and player aid charts (PDF). |
 | `rules/rulings.md` | Rules questions we've hit, the answers, and where in the rules they come from. |
 | `sessions/` | One file per session (after-action report). Start from `sessions/_template.md`. |
 | `saves/` | Vassal save (`.vsav`) and log (`.vlog`) files. |
