@@ -10,6 +10,15 @@
 2. Play Crossing Swords. Primer in `scenarios.md`.
 3. If there's time, start Reforger.
 
+## Rules to review beforehand
+- Scenario book p. 4: Crossing Swords setup and victory conditions
+- 2.6 Zones of Control
+- 6.2 Initiative
+- 9 Action Stages (who moves and attacks when)
+- 10 Stacking
+- 15 Ground War, especially 15.2 modes, 15.3 combat formations, 15.5 ground combat
+- Our summary: `rules/quick-reference.md`
+
 ## Setup & plans
 What each side intended going in.
 
