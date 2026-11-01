@@ -1,0 +1,5 @@
+# Netlify: publish the plain-language rules site.
+# The build step copies the official PDFs into the site so rule links can open them at the right page.
+[build]
+  publish = "site"
+  command = "mkdir -p site/pdf && cp rules/13_RS_Rules_24_JUN_Living_Rules.pdf site/pdf/rules.pdf && cp rules/14_RS_Scenario_Book_24_JUNE_ERRATA.pdf site/pdf/scenarios.pdf && cp rules/08_RS_Player_Aid_Charts_21_JUN_LIVING.pdf site/pdf/charts.pdf"

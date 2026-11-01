@@ -1,2 +1,5 @@
 # Extracted text is regenerated as needed with pdftotext.
 rules/*.txt
+# Netlify build output and local state
+site/pdf/
+.netlify/

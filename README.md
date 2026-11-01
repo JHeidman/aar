@@ -13,6 +13,7 @@ A running record of learning and playing **Red Strike** (VUCA Simulations, 2023)
 | `rules/quick-reference.md` | Our summary of the core rules, with rule numbers. |
 | `rules/` | Official rulebook, scenario book and player aid charts (PDF). |
 | `rules/rulings.md` | Rules questions we've hit, the answers, and where in the rules they come from. |
+| `site/` | Public plain-language rules site (Netlify), one page per scenario. |
 | `sessions/` | One file per session (after-action report). Start from `sessions/_template.md`. |
 | `saves/` | Vassal save (`.vsav`) and log (`.vlog`) files. |
 | `lessons.md` | Things we've learned, mistakes made, tips for next time. |

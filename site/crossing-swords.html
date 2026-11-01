@@ -1,0 +1,150 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Crossing Swords — Red Strike Plain Rules</title>
+<meta name="description" content="Plain-language rules for Red Strike exercise scenario 1, Crossing Swords: ground movement, zones of control and ground combat, with links to the official rulebook.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Oswald:wght@500;600&family=Source+Serif+4:opsz,wght@8..60,400;8..60,600&display=swap">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="site">
+  <div class="crumb"><a href="index.html">Red Strike · Plain Rules</a> / Exercise 1</div>
+  <h1>Crossing Swords</h1>
+  <p class="lede">The first exercise scenario teaches the heart of Red Strike: moving ground units, zones of control and ground combat. This page explains those rules in plain language. The rule numbers link to the official rulebook; when in doubt, the rulebook wins.</p>
+</header>
+<main>
+
+<nav class="toc card">
+  <ol>
+    <li><a href="#glance">The scenario at a glance</a></li>
+    <li><a href="#units">Reading units and stacking</a></li>
+    <li><a href="#turn">How a turn works</a></li>
+    <li><a href="#modes">Frontline and Reserve</a></li>
+    <li><a href="#movement">Movement and zones of control</a></li>
+    <li><a href="#combat">Ground combat, step by step</a></li>
+    <li><a href="#results">Hits, retreats and advancing</a></li>
+    <li><a href="#initiative">Initiative and Battle-hardened</a></li>
+    <li><a href="#tips">Tips and common mistakes</a></li>
+    <li><a href="#questions">Open questions</a></li>
+  </ol>
+</nav>
+
+<h2 id="glance">1. The scenario at a glance</h2>
+<p>Scenario briefing: <a class="r" href="pdf/scenarios.pdf#page=4" target="_blank">Scenario book p. 4</a></p>
+<div class="facts">
+  <div><b>Map</b><span>Exercise map E1</span></div>
+  <div><b>Length</b><span>5 game turns</span></div>
+  <div><b>Forces</b><span><span class="nato">NATO</span> 10 · <span class="wp">WP</span> 7</span></div>
+  <div><b>Supply points</b><span><span class="nato">40</span> · <span class="wp">12</span></span></div>
+  <div><b>Initiative</b><span class="wp">Warsaw Pact</span></div>
+</div>
+<p><b>Victory:</b> the Warsaw Pact must <b>capture hex 0401</b> and hold it at the end of turn 5, <b>and</b> still control <b>hex 0410</b>. NATO wins by stopping either one. (The scenario card doesn't name a side; see <a href="#questions">open questions</a>.)</p>
+<p><b>What's switched off:</b> no air, navy, weather, supply checks or new supply points. It's purely a ground fight.</p>
+<p><b>Supply points (SP) still matter.</b> In Crossing Swords they're a budget you spend on stronger combat formations. Once they're gone, they're gone.</p>
+
+<h2 id="units">2. Reading units and stacking</h2>
+<ul>
+  <li>Each counter shows a <b>combat strength</b> and a <b>movement allowance</b> (bottom right). See the <a class="r" href="pdf/charts.pdf#page=12" target="_blank">counter legend</a>.</li>
+  <li>Size is measured in <b>REs (regiment equivalents)</b>: a brigade or regiment is 1 RE, a division 3 RE, an HQ 1 RE, a battalion ½ RE. <a class="r" href="pdf/rules.pdf#page=4" target="_blank" title="Open rule 1.2.3 in the rulebook">1.2.3</a></li>
+  <li><b>Stacking limit:</b> 6 RE per hex. Overstacking is only checked when a hex fights; the extra units then add nothing but still share any losses. <a class="r" href="pdf/rules.pdf#page=14" target="_blank" title="Open rule 10.1 in the rulebook">10.1</a></li>
+  <li>The one exception is Deliberate Assault, which lets 9 RE attack from a hex. <a class="r" href="pdf/rules.pdf#page=14" target="_blank" title="Open rule 10.1 in the rulebook">10.1</a></li>
+</ul>
+
+<h2 id="turn">3. How a turn works</h2>
+<p>Every turn: decide initiative → assign modes → <b>three Action Stages</b> → end. <a class="r" href="pdf/charts.pdf#page=10" target="_blank">Sequence of play chart</a> <a class="r" href="pdf/rules.pdf#page=12" target="_blank" title="Open rule 9 in the rulebook">9</a></p>
+<p>The <b>initiative player</b> (Warsaw Pact here) gets the first two Action Stages to attack. The <b>reaction player</b> mostly responds, and only attacks in the third. <a class="r" href="pdf/rules.pdf#page=12" target="_blank" title="Open rule 9 in the rulebook">9</a></p>
+<div class="table-wrap"><table>
+<tr><th>Action Stage</th><th>Who moves</th><th>Who can attack</th></tr>
+<tr><td><b>1. Frontline Offensive</b> <a class="r" href="pdf/rules.pdf#page=13" target="_blank" title="Open rule 9.1 in the rulebook">9.1</a></td><td>Initiative player's <b>Frontline</b> units, then the reaction player's <b>Reserve</b> units</td><td>Initiative player, Frontline units only</td></tr>
+<tr><td><b>2. Reserve Exploitation</b> <a class="r" href="pdf/rules.pdf#page=13" target="_blank" title="Open rule 9.2 in the rulebook">9.2</a></td><td>Initiative player's <b>Reserve</b> units, then the reaction player's <b>Reserve</b> units</td><td>Initiative player, any units</td></tr>
+<tr><td><b>3. Counteroffensive</b> <a class="r" href="pdf/rules.pdf#page=14" target="_blank" title="Open rule 9.3 in the rulebook">9.3</a></td><td>Reaction player's <b>Frontline</b> and unmoved <b>Reserve</b> units, then the initiative player's <b>Reserve</b></td><td>Reaction player, any units</td></tr>
+</table></div>
+<div class="card note"><b>The golden rule:</b> each ground unit moves <b>once per turn</b>, at most. Combat only happens in the combat phase at the end of each Action Stage, never during movement. <a class="r" href="pdf/rules.pdf#page=12" target="_blank" title="Open rule 9 in the rulebook">9</a> Keep the <a class="r" href="pdf/charts.pdf#page=2" target="_blank">Action Stage Summary</a> open while you play.</div>
+
+<h2 id="modes">4. Frontline and Reserve</h2>
+<p>At the start of each turn, every unit is either <b>Frontline</b> (no marker) or <b>Reserve</b> (Reserve marker). <a class="r" href="pdf/rules.pdf#page=22" target="_blank" title="Open rule 15.2 in the rulebook">15.2</a> Mode decides <i>when</i> a unit may move, per the table above.</p>
+<ul>
+  <li><b>Reserve needs an HQ.</b> The unit must be in command range of an HQ from its own formation, and each HQ can hold only so many REs in reserve. <a class="r" href="pdf/rules.pdf#page=20" target="_blank" title="Open rule 15.1.3 in the rulebook">15.1.3</a> <a class="r" href="pdf/rules.pdf#page=22" target="_blank" title="Open rule 15.2.2 in the rulebook">15.2.2</a></li>
+  <li><b>Attacking ends Reserve.</b> The moment a Reserve unit declares an attack, it becomes Frontline. <a class="r" href="pdf/rules.pdf#page=22" target="_blank" title="Open rule 15.2.2 in the rulebook">15.2.2</a></li>
+  <li><b>Why bother?</b> For the attacker, Reserve units are the second wave in Action Stage 2. For the defender, they're the units that can shift around during your opponent's stages and hit back in Action Stage 3.</li>
+</ul>
+
+<h2 id="movement">5. Movement and zones of control</h2>
+<ul>
+  <li>Pay the terrain cost for each hex entered, per the <a class="r" href="pdf/charts.pdf#page=1" target="_blank">Terrain Effects Chart</a>. Roads cost ½ MP. Unused MP are lost. <a class="r" href="pdf/rules.pdf#page=15" target="_blank" title="Open rule 11.1 in the rulebook">11.1</a></li>
+  <li><b>Zone of control (ZOC):</b> a stack with <b>at least 3 RE</b> of assault units controls the six hexes around it. A lone brigade has no ZOC. <a class="r" href="pdf/rules.pdf#page=8" target="_blank" title="Open rule 2.6 in the rulebook">2.6</a></li>
+  <li><b>Entering</b> an enemy ZOC: stop. <b>Leaving</b> one: +2 MP. If you start in enemy ZOC and haven't moved yet, you may go straight into another enemy ZOC hex, then stop. <a class="r" href="pdf/rules.pdf#page=8" target="_blank" title="Open rule 2.6 in the rulebook">2.6</a></li>
+  <li>Your own units in a hex <b>don't</b> cancel the enemy's ZOC there. <a class="r" href="pdf/rules.pdf#page=8" target="_blank" title="Open rule 2.6 in the rulebook">2.6</a></li>
+</ul>
+<h3>Repulse (overrun while moving)</h3>
+<p>A big unit can brush a small one aside during movement, at no MP cost, when it enters or starts next to an enemy. Compare printed strengths, with terrain. <a class="r" href="pdf/rules.pdf#page=15" target="_blank" title="Open rule 11.1.2 in the rulebook">11.1.2</a></p>
+<ul>
+  <li><b>10:1 or better:</b> automatic. <b>6:1 to 9:1:</b> roll 1d10, succeeds on 1–5. <b>Below 6:1:</b> not allowed.</li>
+  <li>If it works, the defender retreats 1 hex and you keep moving (one repulse per move). If it fails, you stop.</li>
+  <li>Repulse isn't combat, so it doesn't count as a battle.</li>
+</ul>
+
+<h2 id="combat">6. Ground combat, step by step</h2>
+<p>The attacker declares <b>one combat at a time</b> and resolves it before declaring the next. Each defending hex can be attacked once per combat phase; each unit fights once per phase. Attackers can come from several hexes; the defender is always one hex. <a class="r" href="pdf/rules.pdf#page=23" target="_blank" title="Open rule 15.5 in the rulebook">15.5</a> Everything below is on the <a class="r" href="pdf/charts.pdf#page=3" target="_blank">ground combat chart</a>.</p>
+<ol class="steps">
+  <li><b>Declare.</b> The attacker must be adjacent and able to cross the hexside. <a class="r" href="pdf/rules.pdf#page=23" target="_blank" title="Open rule 15.5.1 in the rulebook">15.5.1</a></li>
+  <li><b>Tactical withdrawal (defender's choice).</b> Roll 1d10 on the withdrawal table. Armor escaping infantry succeeds on 1–9; infantry escaping armor only on a 1. If it works, the defender slips up to 2 hexes away and the attacker must move into the empty hex. <a class="r" href="pdf/rules.pdf#page=23" target="_blank" title="Open rule 15.5.2.1 in the rulebook">15.5.2.1</a></li>
+  <li><b>Combat formations, picked secretly and revealed together.</b> They cost SP per unit, which is where your supply budget goes. <a class="r" href="pdf/rules.pdf#page=22" target="_blank" title="Open rule 15.3 in the rulebook">15.3</a> <a class="r" href="pdf/rules.pdf#page=23" target="_blank" title="Open rule 15.5.2.2 in the rulebook">15.5.2.2</a>
+    <div class="table-wrap"><table>
+      <tr><th>Formation</th><th>SP / unit</th><th>Effect</th></tr>
+      <tr><td>AC: Advance to Contact</td><td>0</td><td>Printed strength (the default)</td></tr>
+      <tr><td>HA: Hasty Assault</td><td>2</td><td>Attack strength ×2</td></tr>
+      <tr><td>DA: Deliberate Assault</td><td>4</td><td>Attack strength ×3, 9 RE stacking. Needs an HQ in range.</td></tr>
+      <tr><td>HD: Hasty Defense</td><td>2</td><td>1 column shift in the defender's favour</td></tr>
+      <tr><td>DD: Deliberate Defense</td><td>4</td><td>2 column shifts. Needs an HQ in range. <b>Can't retreat</b>: takes 1 extra hit instead.</td></tr>
+    </table></div>
+    An HQ with artillery in range adds a bonus on top (attacker +1/+2/+3 to the die, defender 1 more shift). Stacks mixing formations, or units out of HQ range, can't use the Deliberate formations. <a class="r" href="pdf/rules.pdf#page=22" target="_blank" title="Open rule 15.3 in the rulebook">15.3</a></li>
+  <li><b>Work out the odds.</b> Total attack strength ÷ defense strength, rounded: 15 vs 6 is 2.5, which rounds to 3:1. Find that column on the odds table. <a class="r" href="pdf/rules.pdf#page=24" target="_blank" title="Open rule 15.5.4 in the rulebook">15.5.4</a></li>
+  <li><b>Shift columns.</b> Terrain, defensive formation, artillery and Battle-hardened all shift the column. The final column gives a <b>die modifier</b>, from −6 at 1:4 up to +9 at 10:1. 1:1 is ±0. <a class="r" href="pdf/rules.pdf#page=24" target="_blank" title="Open rule 15.5.4 in the rulebook">15.5.4</a></li>
+  <li><b>Roll 1d10</b>, add the modifier, and read the Combat Results Table. Results are hits for each side, sometimes with an <b>R</b> (retreat). If 5+ or 9+ RE fought on a side, that side may take extra hits. <a class="r" href="pdf/rules.pdf#page=24" target="_blank" title="Open rule 15.5.5 in the rulebook">15.5.5</a></li>
+  <li><b>Apply results</b>, defender first. See the next section.</li>
+  <li><b>Clean up.</b> Remove combat markers. Reserve units involved go to Frontline. Winners become Battle-hardened. <a class="r" href="pdf/rules.pdf#page=24" target="_blank" title="Open rule 15.5.7 in the rulebook">15.5.7</a></li>
+</ol>
+
+<h2 id="results">7. Hits, retreats and advancing</h2>
+<ul>
+  <li><b>Hits:</b> the first hit flips a unit to its reduced side, for good. Later hits use Hit markers, and each one lowers its ratings by 1. A unit at strength 1 that takes another hit is destroyed. <a class="r" href="pdf/rules.pdf#page=18" target="_blank" title="Open rule 14.1 in the rulebook">14.1</a> <a class="r" href="pdf/rules.pdf#page=18" target="_blank" title="Open rule 14.1.1 in the rulebook">14.1.1</a></li>
+  <li><b>Retreat (R):</b> every unit on that side moves back 1 hex, avoiding enemy ZOC (1 hit per ZOC hex if there's no other way). Defenders can't end next to the attackers. <a class="r" href="pdf/rules.pdf#page=25" target="_blank" title="Open rule 15.6.1 in the rulebook">15.6.1</a></li>
+  <li><b>Trading hits for ground:</b> a defender may retreat up to 2 hexes instead of taking hits, 1 fewer hit per hex. A unit may also take 1 hit instead of retreating. <a class="r" href="pdf/rules.pdf#page=25" target="_blank" title="Open rule 15.6.1 in the rulebook">15.6.1</a> <a class="r" href="pdf/rules.pdf#page=18" target="_blank" title="Open rule 14.1 in the rulebook">14.1</a></li>
+  <li><b>Advance after combat:</b> if the defender's hex is empty, the attacker may move in, or follow along the retreat path, ignoring ZOC. An attacker who chooses <b>not</b> to advance may cancel 1 of its own hits. A retreating attacker never advances. <a class="r" href="pdf/rules.pdf#page=25" target="_blank" title="Open rule 15.6.1 in the rulebook">15.6.1</a></li>
+</ul>
+
+<h2 id="initiative">8. Initiative and Battle-hardened</h2>
+<ul>
+  <li><b>Battles won:</b> whoever takes <b>more hits</b> loses the battle; hits turned into retreats still count; ties don't count. Track it on the Battles Won marker. <a class="r" href="pdf/rules.pdf#page=24" target="_blank" title="Open rule 15.5.6 in the rulebook">15.5.6</a></li>
+  <li><b>Initiative:</b> normally, whoever is ahead on Battles Won takes the initiative next turn; at 0 it stays put. <a class="r" href="pdf/rules.pdf#page=10" target="_blank" title="Open rule 6.2 in the rulebook">6.2</a> (In Crossing Swords, it may simply stay with the Warsaw Pact; see <a href="#questions">open questions</a>.)</li>
+  <li><b>Battle-hardened (BH):</b> a stack that wins a battle gets a BH marker, worth a 1-column shift in its favour. You can give BH up to cancel a hit. It's lost as soon as any unit joins or leaves the stack. <a class="r" href="pdf/rules.pdf#page=22" target="_blank" title="Open rule 15.4.1 in the rulebook">15.4.1</a></li>
+</ul>
+
+<h2 id="tips">9. Tips and common mistakes</h2>
+<ul>
+  <li><b>Budget your SP.</b> The Warsaw Pact's 12 SP is roughly six units' worth of Hasty Assault for the whole game. Save it for the attacks that matter.</li>
+  <li><b>NATO's 40 SP buys defense.</b> Hasty or Deliberate Defense on the two key hexes is where it pays off.</li>
+  <li><b>Small stacks don't block.</b> Under 3 RE, a stack has no ZOC and the enemy walks past it.</li>
+  <li><b>Deliberate Defense means no retreat.</b> Great for holding a victory hex, but the defender soaks up an extra hit when an R comes up.</li>
+  <li><b>Plan Reserve at the start of the turn.</b> You can't change modes mid-turn, and Reserve is limited by your HQs.</li>
+  <li><b>Tactical withdrawal is a real option</b>, especially for armor facing infantry. Giving up a hex can save a unit.</li>
+</ul>
+
+<h2 id="questions">10. Open questions</h2>
+<p>The scenario card leaves two things unclear. These are our current readings; check the BoardGameGeek forums, where the designer answers questions.</p>
+<ul>
+  <li><b>Does initiative ever change?</b> Probably not: the scenario's <i>variant</i> adds "determine initiative each turn with Battles Won", which suggests the base game keeps the Warsaw Pact as initiative player for all 5 turns.</li>
+  <li><b>Whose victory conditions are they?</b> Most likely the Warsaw Pact's, since the variant gives NATO the mirror-image task.</li>
+</ul>
+
+</main>
+<footer class="site">
+  Unofficial fan guide by Jeff and Eero, written while learning the game. <i>Red Strike</i> is designed by Yves Rettel and published by VUCA Simulations; all game material belongs to them. Rule links open the official living rules (June 2024).
+  <br><a href="index.html">← All scenarios</a>
+</footer>
+</body>
+</html>
