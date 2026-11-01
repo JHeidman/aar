@@ -23,3 +23,8 @@ Menu names are from Vassal 3.7; other versions may differ slightly.
 - **Type notes in the chat box.** They're saved in the log ("attacking 0402 in Hasty Assault").
 - **Undo is recorded too.** Fine for honest fixes; just say so in chat.
 - **Save every log to `saves/`** in this repo, so Claude can read the chat lines for the write-up.
+
+## Proposed procedure for Red Strike (draft)
+- **Standing orders:** at the end of each file, the player about to defend posts in chat, for every stack adjacent to the enemy, the combat formation and whether to try a tactical withdrawal (e.g. "0405: HD, no TW"). The attacker resolves all combats in one file using those orders.
+- About one file per Action Stage (4–6 files per turn).
+- Once air units are in play (Reforger onward), consider moving by email and doing combat phases live.
