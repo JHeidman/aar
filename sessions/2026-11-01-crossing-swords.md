@@ -1,6 +1,6 @@
 # Session 1 — Crossing Swords — 2026-11-01
 
-- **Players:** Jeff (NATO / WP) vs. Eero (NATO / WP)
+- **Players:** Jeff (WP) vs. Eero (NATO)
 - **Scenarios:** 1. Crossing Swords (main); 10. Reforger (if time)
 - **Time:** 11:00 EST Rochester / 18:00 EET Finland
 - **Vassal save:** `saves/...`
@@ -47,7 +47,7 @@ What each side intended going in.
 ### Turn 5
 
 ## Result
-Who won, on what victory conditions.
+**NATO win (Eero).** Played to completion. Details to be added.
 
 ## Rules questions that came up
 (Also logged in `rules/rulings.md`.)

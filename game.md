@@ -17,4 +17,4 @@
 
 | Date | Scenario | NATO | Warsaw Pact | Result | Log |
 |---|---|---|---|---|---|
-| | | | | | |
+| 2026-11-01 | 1. Crossing Swords | Eero | Jeff | **NATO win** | `sessions/2026-11-01-crossing-swords.md` |
