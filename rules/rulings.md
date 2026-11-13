@@ -10,6 +10,9 @@ Questions that came up in play, the answer, and where it came from.
 | 2026-10-27 | Is HQ Reserve Capacity counted in units or REs? | **REs.** Note: the glossary says "number of units", and the 15.1.3 example says "3 units", so the book contradicts itself. Rule 15.1.3 itself says REs; going with that. | Rulebook 15.1.3 (vs. glossary) |
 | 2026-10-27 | Crossing Swords: how many supply points? | NATO 40, WP 12. No new SPs during the scenario. | Scenario 1 |
 | 2026-11-11 | B4 Bavarian Option: is the pre-GT1 nuclear authorization roll before or after the WP pre-GT1 move? | Order doesn't matter. The roll can be made "once at any moment in a GT"; the scenario just allows it during pre-GT1. Players also roll again in each End Stage (step 9), and retaliation is automatically authorized. | Rulebook 18.2; Scenario B4.2 |
+| 2026-11-13 | Do woods/rough double armored defenders? | No. Woods, rough, swamp and wooded rough double "CS Other" only; counters with tank silhouettes (armor) get no change. The column shift still applies in regular combat. | Terrain Effects Chart (player aids p. 1) |
+| 2026-11-13 | How are odds rounded (e.g. 48 vs 5 = 9.6)? | Fractions of .5 or more round up, less than .5 round down. 9.6 becomes 10, so 10:1. | Rulebook 1.8 |
+| 2026-11-13 | Does terrain's column shift apply to Repulse? | Our reading: no. Repulse compares printed strengths "taking into account terrain effects" (multipliers); column shifts belong to the combat table. | Rulebook 11.1.2 (House reading) |
 
 ## Open questions
 
